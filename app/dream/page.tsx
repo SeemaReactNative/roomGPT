@@ -15,13 +15,19 @@ import appendNewToName from "../../utils/appendNewToName";
 import downloadPhoto from "../../utils/downloadPhoto";
 import DropDown from "../../components/DropDown";
 import { roomType, rooms, themeType, themes } from "../../utils/dropdownTypes";
+import { NextResponse } from "next/server";
+
 
 // Configuration for the uploader
 const uploader = Uploader({
-  apiKey: !!process.env.NEXT_PUBLIC_UPLOAD_API_KEY
-    ? process.env.NEXT_PUBLIC_UPLOAD_API_KEY
-    : "free",
+  apiKey : "free"
+  // apiKey: !!process.env.NEXT_PUBLIC_UPLOAD_API_KEY
+  //   ? process.env.NEXT_PUBLIC_UPLOAD_API_KEY
+  //   : "free",
 });
+
+console.log("uploader ==>", uploader, process.env.NEXT_PUBLIC_UPLOAD_API_KEY);
+
 
 const options = {
   maxFileCount: 1,
@@ -60,6 +66,9 @@ export default function DreamPage() {
       uploader={uploader}
       options={options}
       onUpdate={(file) => {
+        console.log("file ===>", file);
+        
+        
         if (file.length !== 0) {
           setPhotoName(file[0].originalFile.originalFileName);
           setOriginalPhoto(file[0].fileUrl.replace("raw", "thumbnail"));
@@ -74,20 +83,95 @@ export default function DreamPage() {
   async function generatePhoto(fileUrl: string) {
     await new Promise((resolve) => setTimeout(resolve, 200));
     setLoading(true);
-    const res = await fetch("/generate", {
-      method: "POST",
+
+    console.log("input data ===>", room, theme, fileUrl);
+    
+
+    
+
+     // POST request to Replicate to start the image restoration generation process
+  let startResponse = await fetch("https://api.replicate.com/v1/predictions", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+        "Authorization": "Token r8_MwEGHNtJmbuQ7IdAPVdGydjq7x420Vw1m3gnm", //+ process.env.REPLICATE_API_KEY,
+        'Access-Control-Allow-Origin': '*',
+        "Access-Control-Allow-Methods": "GET,POST,OPTIONS,DELETE,PUT"
+    },
+    body: JSON.stringify({
+      version:
+        "6359a0cab3ca6e4d3320c33d79096161208e9024d174b2311e5a21b6c7e1131c",
+      input: {
+        image: fileUrl,
+        prompt:
+          room === "Gaming Room"
+            ? "a room for gaming with gaming computers, gaming consoles, and gaming chairs"
+            : `a ${theme.toLowerCase()} ${room.toLowerCase()}`,
+        a_prompt:
+          "best quality, extremely detailed, photo from Pinterest, interior, cinematic photo, ultra-detailed, ultra-realistic, award-winning",
+        n_prompt:
+          "longbody, lowres, bad anatomy, bad hands, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality",
+      },
+    }),
+  });
+
+  let jsonStartResponse = await startResponse.json();
+
+  let endpointUrl = jsonStartResponse.urls.get();
+  console.log("endpointUrl  ==>", endpointUrl);
+  
+
+  // GET request to get the status of the image restoration process & return the result when it's ready
+  let restoredImage: string | null = null;
+  while (!restoredImage) {
+    // Loop in 1s intervals until the alt text is ready
+    console.log("polling for result...");
+    let finalResponse = await fetch(endpointUrl, {
+      method: "GET",
       headers: {
         "Content-Type": "application/json",
+        "Authorization": "Token r8_MwEGHNtJmbuQ7IdAPVdGydjq7x420Vw1m3gnm", //+ process.env.REPLICATE_API_KEY,
+        'Access-Control-Allow-Origin': '*',
+        "Access-Control-Allow-Methods": "GET,POST,OPTIONS,DELETE,PUT"
+        //"Access-Control-Allow-Origin": "http://localhost:3000/"
       },
-      body: JSON.stringify({ imageUrl: fileUrl, theme, room }),
     });
+    let jsonFinalResponse = await finalResponse.json();
 
-    let newPhoto = await res.json();
-    if (res.status !== 200) {
-      setError(newPhoto);
+    console.log("jsonFinalResponse ==>", jsonFinalResponse);
+    
+
+    if (jsonFinalResponse.status === "succeeded") {
+      restoredImage = jsonFinalResponse.output;
+    } else if (jsonFinalResponse.status === "failed") {
+      break;
     } else {
-      setRestoredImage(newPhoto[1]);
+      await new Promise((resolve) => setTimeout(resolve, 1000));
     }
+  }
+
+  return NextResponse.json(
+    restoredImage ? restoredImage : "Failed to restore image"
+  );
+
+    // const res = await fetch("/generate", {
+    //   method: "POST",
+    //   headers: {
+    //     "Content-Type": "application/json",
+    //   },
+    //   body: JSON.stringify({ imageUrl: fileUrl, theme, room }),
+    // });
+
+    // console.log("res ===>", res);
+    
+    // let newPhoto = await res.json();
+    // if (res.status !== 200) {
+    //   setError(newPhoto);
+    // } else {
+    //   setRestoredImage(newPhoto[1]);
+    // }
+
+
     setTimeout(() => {
       setLoading(false);
     }, 1300);

@@ -1,0 +1,299 @@
+{
+    "data": {
+      "dashboard": [
+        {
+          "block_id": 30,
+          "block_type": "carousel_slider",
+          "content_id": 1,
+          "position": 0,
+          "content": {
+            "slider_id": 1,
+            "type": "main_slider",
+            "show_title": true,
+            "block_id": null,
+            "title": "Main Slider",
+            "html": null,
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": [
+              {
+                "banner_id": 1,
+                "title": "Main banner 1",
+                "is_video": null,
+                "image": "mobilesuite/categoryslider/1ljwie2.png",
+                "video": null,
+                "type": "no_link",
+                "value": null,
+                "position": 0,
+                "description": null
+              },
+              {
+                "banner_id": 2,
+                "title": "Main banner 2 ",
+                "is_video": null,
+                "image": "mobilesuite/categoryslider/vtgdko2.png",
+                "video": null,
+                "type": "no_link",
+                "value": null,
+                "position": 0,
+                "description": null
+              },
+              {
+                "banner_id": 3,
+                "title": "Main banner 2 ",
+                "is_video": null,
+                "image": "mobilesuite/categoryslider/77a7me.png",
+                "video": null,
+                "type": "no_link",
+                "value": null,
+                "position": 0,
+                "description": null
+              },
+              {
+                "banner_id": 4,
+                "title": "Main banner 4",
+                "is_video": null,
+                "image": "mobilesuite/categoryslider/c3eszk.png",
+                "video": null,
+                "type": "no_link",
+                "value": null,
+                "position": 0,
+                "description": null
+              }
+            ],
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 31,
+          "block_type": "category_slider",
+          "content_id": 2,
+          "position": 1,
+          "content": {
+            "slider_id": 2,
+            "type": "slider_view",
+            "show_title": null,
+            "block_id": null,
+            "title": "Women's Fashion",
+            "html": null,
+            "slider_with_tab": null,
+            "show_main_label": true,
+            "show_child_category_label": true,
+            "redirection_type": "no_link",
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": [],
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 32,
+          "block_type": "top_categories",
+          "content_id": 1,
+          "position": 2,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": null,
+            "title": null,
+            "html": null,
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": [],
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 33,
+          "block_type": "cms_block",
+          "content_id": 4,
+          "position": 3,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "sale-left-menu-block",
+            "title": "Sale Left Menu Block",
+            "html": "<div className=\"categories-menu\"><strong className=\"title\"><span>Women's Deals</span></strong>\n<ul className=\"items\">\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/tops-women/hoodies-and-sweatshirts-women.html\">Hoodies and Sweatshirts</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/tops-women/jackets-women.html\">Jackets</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/tops-women/tees-women.html\">Tees</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/tops-women/tanks-women.html\">Bras & Tanks</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/bottoms-women/pants-women.html\">Pants</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/women/bottoms-women/shorts-women.html\">Shorts</a></li>\n</ul>\n\n<strong className=\"title\"><span>Mens's Deals</span></strong>\n<ul className=\"items\">\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/hoodies-and-sweatshirts-men.html\">Hoodies and Sweatshirts</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/jackets-men.html\">Jackets</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/tees-men.html\">Tees</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/bottoms-men/pants-men.html\">Pants</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/bottoms-men/shorts-men.html\">Shorts</a></li>\n</ul>\n\n<strong className=\"title\"><span>Gear Deals</span></strong>\n<ul className=\"items\">\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/gear/bags.html\">Bags</a></li>\n    <li className=\"item\"><a href=\"https://backoffice-hnak.solution.magentoprojects.net/gear/fitness-equipment.html\">Fitness Equipment</a></li>\n</ul>\n</div>",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 34,
+          "block_type": "cms_block",
+          "content_id": 11,
+          "position": 4,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "men-block",
+            "title": "Men Block",
+            "html": "<div data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;div className=\"blocks-promo\"&gt;\r\n    &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men.html\" className=\"block-promo mens-main\"&gt;\r\n        &lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-main.jpg\" alt=\"\" /&gt;\r\n        &lt;span className=\"content\"&gt;\r\n            &lt;span className=\"info\"&gt;Luma’s Performance Fabric collection&lt;/span&gt;\r\n            &lt;strong className=\"title\"&gt;Going the extra mile just got extra comfortable&lt;/strong&gt;\r\n            &lt;span className=\"more button\"&gt;Shop Performance&lt;/span&gt;\r\n        &lt;/span&gt;\r\n    &lt;/a&gt;\r\n    &lt;div className=\"block-promo-wrapper block-promo-2columns\"&gt;\r\n        &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/tees-men.html\" className=\"block-promo mens-t-shirts\"&gt;\r\n            &lt;span className=\"content\"&gt;\r\n                &lt;strong className=\"title\"&gt;Save up to $24!&lt;/strong&gt;\r\n                &lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-t-shirts.png\" alt=\"\" /&gt;\r\n                &lt;span className=\"info\"&gt;Buy 3 Luma tees, get 4 instead&lt;/span&gt;\r\n                &lt;span className=\"more icon\"&gt;Shop Tees&lt;/span&gt;\r\n            &lt;/span&gt;\r\n        &lt;/a&gt;\r\n        &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/bottoms-men/pants-men.html\" className=\"block-promo mens-pants\"&gt;\r\n            &lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-pants.jpg\" alt=\"\" /&gt;\r\n            &lt;span className=\"content\"&gt;\r\n                &lt;strong className=\"title\"&gt;Last chance&lt;br /&gt;for pants&lt;/strong&gt;\r\n                &lt;span className=\"info\"&gt;Take &lt;span&gt;20% OFF&lt;/span&gt;and save bigtime*&lt;/span&gt;\r\n                &lt;span className=\"more icon\"&gt;Shop Pants&lt;/span&gt;\r\n            &lt;/span&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n    &lt;div className=\"block-promo-wrapper block-promo-3columns\"&gt;\r\n        &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/bottoms-men/shorts-men.html\" className=\"block-promo mens-category-shorts\"&gt;\r\n            &lt;span className=\"content\"&gt;\r\n                &lt;strong className=\"title\"&gt;Luma shorts&lt;/strong&gt;\r\n                &lt;span className=\"info\"&gt;Cool it now&lt;/span&gt;\r\n                &lt;span className=\"more icon\"&gt;Shop Shorts&lt;/span&gt;\r\n            &lt;/span&gt;\r\n            &lt;span className=\"image\"&gt;&lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-category-shorts.jpg\" alt=\"\" /&gt;&lt;/span&gt;\r\n        &lt;/a&gt;\r\n        &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/tees-men.html\" className=\"block-promo mens-category-tees\"&gt;\r\n            &lt;span className=\"content\"&gt;\r\n                &lt;strong className=\"title\"&gt;Luma tees&lt;/strong&gt;\r\n                &lt;span className=\"info\"&gt;Grab a tee or two!&lt;/span&gt;\r\n                &lt;span className=\"more icon\"&gt;Shop Tees&lt;/span&gt;\r\n            &lt;/span&gt;\r\n            &lt;span className=\"image\"&gt;&lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-category-tees.jpg\" alt=\"\" /&gt;&lt;/span&gt;\r\n        &lt;/a&gt;\r\n        &lt;a href=\"https://backoffice-hnak.solution.magentoprojects.net/men/tops-men/hoodies-and-sweatshirts-men.html\" className=\"block-promo mens-category-hoodies\"&gt;\r\n            &lt;span className=\"content\"&gt;\r\n                &lt;strong className=\"title\"&gt;Luma hoodies&lt;/strong&gt;\r\n                &lt;span className=\"info\"&gt;Dress for fitness&lt;/span&gt;\r\n                &lt;span className=\"more icon\"&gt;Shop Hoodies&lt;/span&gt;\r\n            &lt;/span&gt;\r\n            &lt;span className=\"image\"&gt;&lt;img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/mens/mens-category-hoodies.jpg\" alt=\"\" /&gt;&lt;/span&gt;\r\n        &lt;/a&gt;\r\n    &lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;div className=\"content-heading\"&gt;\r\n    &lt;h2 className=\"title\"&gt;Hot Sellers&lt;/h2&gt;\r\n    &lt;p className=\"info\"&gt;Favorites from Luma shoppers&lt;/p&gt;\r\n&lt;/div&gt;\r\n</div>",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 35,
+          "block_type": "cms_block",
+          "content_id": 10,
+          "position": 5,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "training-block",
+            "title": "Training Block",
+            "html": "<div className=\"blocks-promo\">\n\n    <a href=\"https://backoffice-hnak.solution.magentoprojects.net/training.html\" className=\"block-promo training-main\">\n        <img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/training/training-main.jpg\" alt=\"\" />\n        <span className=\"content\">\n            <strong className=\"title\">\n                <span>Motivate</span> yourself.<br />\n                <span>Reach</span> goals.<br />\n                <span>Boost</span> ambition.<br />\n                <span>Max</span> fitness.<br />\n                <span>Upgrade</span> lifestyle.\n            </strong>\n        </span>\n    </a>\n    <a href=\"https://backoffice-hnak.solution.magentoprojects.net/collections/erin-recommends.html\" className=\"block-promo training-erin\">\n        <img src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/training/training-erin.jpg\" alt=\"\" />\n        <span className=\"content\">\n            <strong className=\"title\">Before creating Luma, pro trainer Erin Renny helped world-class athletes reach peak fitness</strong>\n            <span className=\"info\">Hand-selected by Erin, our training downloads reflect a commitment to yoga, health and wellness.</span>\n        </span>\n    </a>\n    <a href=\"https://backoffice-hnak.solution.magentoprojects.net/training/training-video.html\" className=\"block-promo training-on-demand\">\n        <span className=\"content\">\n            <span className=\"icon download\"><span>Download</span></span>\n            <strong className=\"title\">Training on demand</strong>\n            <span className=\"info\">Luma downloads to inspire and&nbsp;challenge.<br />Your space, your pace</span>\n            <span className=\"more icon\">Videos</span>\n        </span>\n    </a>\n</div>\n<div className=\"content-heading\">\n    <h2 className=\"title\">Top Videos</h2>\n    <p className=\"info\">Stream free with subscription</p>\n</div>\n",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 36,
+          "block_type": "cms_block",
+          "content_id": 23,
+          "position": 6,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "hnak-footer-block-3",
+            "title": "Footer Block Links HNAK",
+            "html": "<style>#html-body [data-pb-style=GQPLCVJ],#html-body [data-pb-style=PRDC987],#html-body [data-pb-style=WAROMKR],#html-body [data-pb-style=WLF9I9Y]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=GQPLCVJ],#html-body [data-pb-style=PRDC987],#html-body [data-pb-style=WLF9I9Y]{width:33.3333%;align-self:stretch}</style><div className=\"footer-link-block\" data-content-type=\"row\" data-appearance=\"full-bleed\" data-enable-parallax=\"0\" data-parallax-speed=\"0.5\" data-background-images=\"{}\" data-background-type=\"image\" data-video-loop=\"true\" data-video-play-only-visible=\"true\" data-video-lazy-load=\"true\" data-video-fallback-src=\"\" data-element=\"main\" data-pb-style=\"WAROMKR\"><div className=\"pagebuilder-column-group\" style=\"display: flex;\" data-content-type=\"column-group\" data-grid-size=\"3\" data-element=\"main\"><div className=\"pagebuilder-column links-content\" data-content-type=\"column\" data-appearance=\"full-height\" data-background-images=\"{}\" data-element=\"main\" data-pb-style=\"WLF9I9Y\"><h3 data-content-type=\"heading\" data-appearance=\"default\" data-element=\"main\">Min Hena</h3><div className=\"link-container fdc\" data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;a href=\"#\"&gt;Fashion&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Gold&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Prayer Needs&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Kids&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Home&lt;/a&gt;</div></div><div className=\"pagebuilder-column links-content\" data-content-type=\"column\" data-appearance=\"full-height\" data-background-images=\"{}\" data-element=\"main\" data-pb-style=\"GQPLCVJ\"><h3 data-content-type=\"heading\" data-appearance=\"default\" data-element=\"main\">Electronics</h3><div className=\"link-container fdc\" data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;a href=\"#\"&gt;Smartphones&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Entertainment&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Tablets&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Cameras&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Wearables&lt;/a&gt;</div></div><div className=\"pagebuilder-column links-content\" data-content-type=\"column\" data-appearance=\"full-height\" data-background-images=\"{}\" data-element=\"main\" data-pb-style=\"PRDC987\"><h3 data-content-type=\"heading\" data-appearance=\"default\" data-element=\"main\">Fashion</h3><div className=\"link-container fdc\" data-content-type=\"html\" data-appearance=\"default\" data-element=\"main\">&lt;a href=\"#\"&gt;Fragrances&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Men&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Women&lt;/a&gt;\r\n&lt;a href=\"#\"&gt;Luggage and Travel&lt;/a&gt;</div></div></div></div>",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 37,
+          "block_type": "cms_block",
+          "content_id": 24,
+          "position": 7,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "hnak-store-locator",
+            "title": "Store Locator - HNAK",
+            "html": "<style>#html-body [data-pb-style=I5O8FDN],#html-body [data-pb-style=LF4PAOD]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll}#html-body [data-pb-style=LF4PAOD]{width:50%;align-self:stretch}#html-body [data-pb-style=C8VSLA9]{display:inline-block}#html-body [data-pb-style=GDL39JQ]{text-align:center}#html-body [data-pb-style=TIYBUWY]{justify-content:flex-start;display:flex;flex-direction:column;background-position:left top;background-size:cover;background-repeat:no-repeat;background-attachment:scroll;width:50%;align-self:stretch}#html-body [data-pb-style=AV2HIR3]{border-style:none}#html-body [data-pb-style=G5E79A0],#html-body [data-pb-style=WPCSMYP]{max-width:100%;height:auto}@media only screen and (max-width: 768px) { #html-body [data-pb-style=AV2HIR3]{border-style:none} }</style><div className=\"store-locator-main\" data-content-type=\"row\" data-appearance=\"full-bleed\" data-enable-parallax=\"0\" data-parallax-speed=\"0.5\" data-background-images=\"{}\" data-background-type=\"image\" data-video-loop=\"true\" data-video-play-only-visible=\"true\" data-video-lazy-load=\"true\" data-video-fallback-src=\"\" data-element=\"main\" data-pb-style=\"I5O8FDN\"><div className=\"pagebuilder-column-group\" style=\"display: flex;\" data-content-type=\"column-group\" data-grid-size=\"12\" data-element=\"main\"><div className=\"pagebuilder-column text-section\" data-content-type=\"column\" data-appearance=\"full-height\" data-background-images=\"{}\" data-element=\"main\" data-pb-style=\"LF4PAOD\"><h2 data-content-type=\"heading\" data-appearance=\"default\" data-element=\"main\">Store Locator11</h2><h4 data-content-type=\"heading\" data-appearance=\"default\" data-element=\"main\">Would you like to shop at one of our stores instead? HNAK has a range of physical stores to help our customers get the best experience. Enter your location information so that you may find a store closest to you.</h4><div data-content-type=\"buttons\" data-appearance=\"inline\" data-same-width=\"false\" data-element=\"main\"><div data-content-type=\"button-item\" data-appearance=\"default\" data-element=\"main\" data-pb-style=\"C8VSLA9\"><div className=\"pagebuilder-button-primary\" data-element=\"empty_link\" data-pb-style=\"GDL39JQ\"><span data-element=\"link_text\">Find a store</span></div></div></div></div><div className=\"pagebuilder-column image-section\" data-content-type=\"column\" data-appearance=\"full-height\" data-background-images=\"{}\" data-element=\"main\" data-pb-style=\"TIYBUWY\"><figure data-content-type=\"image\" data-appearance=\"full-width\" data-element=\"main\" data-pb-style=\"AV2HIR3\"><img className=\"pagebuilder-mobile-hidden\" src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/store-locator.jpg\" alt=\"\" title=\"\" data-element=\"desktop_image\" data-pb-style=\"WPCSMYP\"><img className=\"pagebuilder-mobile-only\" src=\"https://backoffice-hnak.solution.magentoprojects.net/media/wysiwyg/store-locator.jpg\" alt=\"\" title=\"\" data-element=\"mobile_image\" data-pb-style=\"G5E79A0\"></figure></div></div></div>",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 38,
+          "block_type": "brand_slider",
+          "content_id": 1,
+          "position": 8,
+          "content": null
+        },
+        {
+          "block_id": 39,
+          "block_type": "top_categories",
+          "content_id": 1,
+          "position": 9,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": null,
+            "title": null,
+            "html": null,
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": [],
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        },
+        {
+          "block_id": 40,
+          "block_type": "cms_block",
+          "content_id": 3,
+          "position": 10,
+          "content": {
+            "slider_id": null,
+            "type": null,
+            "show_title": null,
+            "block_id": "contact-us-info",
+            "title": "Contact us info",
+            "html": "<div className=\"contact-info cms-content\">\n   <p className=\"cms-content-important\">We love hearing from you, our Luma customers. Please contact us about anything at all. Your latest passion, unique health experience or request for a specific product. We’ll do everything we can to make your Luma experience unforgettable every time. Reach us however you like</p>\n   <div className=\"block block-contact-info\">\n       <div className=\"block-title\">\n           <strong>Contact Us Info</strong>\n       </div>\n       <div className=\"block-content\">\n           <div className=\"box box-phone\">\n               <strong className=\"box-title\">\n                   <span>Phone</span>\n               </strong>\n               <div className=\"box-content\">\n                   <span className=\"contact-info-number\">1-800-403-8838</span>\n                   <p>Call the Luma Helpline for concerns, product questions, or anything else. We’re here for you 24 hours a day - 365 days a year.</p>\n               </div>\n           </div>\n           <div className=\"box box-design-inquiries\">\n               <strong className=\"box-title\">\n                   <span>Apparel Design Inquiries</span>\n               </strong>\n               <div className=\"box-content\">\n                   <p>Are you an independent clothing designer? Feature your products on the Luma website! Please direct all inquiries via email to: <a href=\"mailto:cs@luma.com\">cs@luma.com</a></p>\n               </div>\n           </div>\n           <div className=\"box box-press-inquiries\">\n               <strong className=\"box-title\">\n                   <span>Press Inquiries</span>\n               </strong>\n               <div className=\"box-content\">\n                   <p>Please direct all media inquiries via email to: <a href=\"mailto:pr@luma.com\">pr@luma.com</a></p>\n               </div>\n           </div>\n       </div>\n   </div>\n</div>\n",
+            "slider_with_tab": null,
+            "show_main_label": null,
+            "show_child_category_label": null,
+            "redirection_type": null,
+            "redirection_value": null,
+            "short_description": null,
+            "top_categories": null,
+            "carousel_slider": null,
+            "category_slider": null,
+            "product_slider": null
+          }
+        }
+      ]
+    }
+  }
+  
